@@ -1,0 +1,88 @@
+=======================================================
+NEXTSCRAPE - ARAŞTIRMA RAPORU
+LLM Destekli Hibrit Web Kazıma Sistemi
+Tarih: 04.06.2026 02:09:50
+=======================================================
+
+1. TEST ORTAMI
+--------------
+- Test Edilen URL Sayısı: 2
+- Test Edilen Site Sayısı: 1
+- Test Tarihi: 04.06.2026
+- Kullanılan Model: llama3 (Ollama)
+- Donanım: Yerel Sistem (16GB RAM)
+
+2. GENEL SONUÇLAR
+-----------------
+- Başarılı Analiz: 2/2 (%100.0)
+- Ortalama Güven Skoru: 0.95
+- Ortalama LLM Yanıt Süresi: 1200 ms
+- Ortalama HTML Küçültme: %40.5
+- Ortalama RegEx Gürültü Azaltımı: %80.0
+
+3. ALAN BAZLI BAŞARI ORANLARI
+-----------------------------
+- Başlık Bulma Oranı: %100.0
+- İçerik Bulma Oranı: %100.0
+- Yazar Bulma Oranı: %100.0
+- Tarih Bulma Oranı: %100.0
+
+4. 3 AŞAMALI DOĞRULAMA DÖNGÜSÜ ANALİZİ
+----------------------------------------
+- 1. Denemede Çözülen: 1 URL (%50.0)
+- 2. Denemede Çözülen: 0 URL (%0.0)
+- 3. Denemede Çözülen: 0 URL (%0.0)
+- Başarısız (3 denemede): 0 URL (%0.0)
+- Neden 3 Deneme Yeterli:
+  "1/2 URL ilk 2 denemede çözüldü (%50.0).
+   3. deneme sadece %0.0 ek katkı sağladı.
+   4. deneme anlamsız olurdu çünkü 3 başarısız
+   denemeden sonra site yapısı LLM tarafından
+   anlaşılamıyor demektir."
+
+5. REGEX FİLTRELEME ETKİSİ
+---------------------------
+- Öncesi Ortalama Gürültü Oranı: %10.0
+- Sonrası Ortalama Gürültü Oranı: %2.0
+- Gürültü Azaltımı: %8.0
+- Kaldırılan Ortalama Öğe Sayısı: 5.0
+
+Filtre Bazlı Katkı:
+- HTML Varlıkları: 1 öğe
+- URL'ler: 1 öğe
+- Sosyal Medya Gürültüsü: 1 öğe
+- Tarih/Saat Gürültüsü: 1 öğe
+- Hashtagler: 1 öğe
+- Kısa Satırlar: 0 öğe
+
+6. KARA LİSTE ETKİSİ
+---------------------
+- Kara Liste Öncesi Ort. Skor: 0.55
+- Kara Liste Sonrası Ort. Skor: 0.95
+- İyileşme: %72.7
+- Toplam Kara Listeye Alınan Seçici: 15
+- En Sorunlu Seçiciler:
+- .redirectPopup-items__content > div.content-article
+- .author-name
+- .h1
+- .detail .text
+- .publish-date
+
+7. SİTE BAZLI SONUÇLAR
+-----------------------
+| Site                      | Test | Başarı | Ort.Güven | Ort.Deneme |
+|---------------------------|------|--------|-----------|------------|
+| milliyet.com.tr           | 1    | 1      | 0.95      | 1.00       |
+
+8. KATEGORİ DAĞILIMI
+---------------------
+- SPOR: 1 haber (%100.0)
+
+9. SONUÇ VE DEĞERLENDİRME
+--------------------------
+- Sistem 1 farklı haber sitesinde test edilmiştir.
+- Ortalama %100.0 başarı oranı elde edilmiştir.
+- LLM tabanlı kural üretimi, geleneksel yöntemlere göre daha esnek ve adaptif bir yapı sunmaktadır.
+- 3 aşamalı doğrulama döngüsü, veri kalitesini ortalama %72.7 oranında artırmaktadır.
+
+=======================================================

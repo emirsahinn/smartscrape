@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+ 
+# Streamlit
+.streamlit/secrets.toml
+ 
+# Proje verileri (çalışma zamanında üretilen dosyalar)
+data/rules_cache/
+data/blacklist.json
+data/batch_results.json
+*.log
+ 
+# IDE / Editör
+.vscode/
+.idea/
+*.swp
+.DS_Store
+ 
+# Ollama / model dosyaları (varsa yerel model ağırlıkları)
+*.gguf
+*.bin
+ 
+# Jupyter
+.ipynb_checkpoints/
+
