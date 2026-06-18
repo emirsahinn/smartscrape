@@ -1,7 +1,7 @@
 # NextScrape 🕷️
 ## LLM Destekli Hibrit Web Kazıma Sistemi
 
-TÜBİTAK 2209-A Üniversitesi Öğrencileri Araştırma Projeleri Desteği Programı  
+
 Tekirdağ Namık Kemal Üniversitesi - Bilgisayar Mühendisliği
 
 ---
